@@ -1,0 +1,27 @@
+/* Generelle stiler som gjelder for alle enheter */
+body {
+    background-color: rgb(0, 0, 0);
+    position: relative; /* Gjør body til relativt posisjonert */
+}
+
+/* Stil for å endre størrelsen på bildene */
+.andini3.jpg
+ {
+    width: 340px;
+    height: auto;
+}
+
+.AndiniShow2.jpg {
+    width: 400px;
+    height: auto;
+}
+
+.f65f873a-36f6-45af-bcbb-d396284aea62.jpg {
+    width: 390px;
+    height: auto;
+    position: absolute; /* Setter bildet til absolutt posisjonering */
+    top: 0; /* Plasserer bildet i toppen av body */
+    right: 0; /* Plasserer bildet i høyre side av body */
+    background-image: url("andini med kanin.jpg"); /* Legger til bakgrunnsbilde */
+    background-size: cover; /* Sørger for at bakgrunnsbildet dekker hele elementet */
+    transform: rotate(-5deg);}
